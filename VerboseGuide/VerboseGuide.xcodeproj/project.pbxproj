@@ -484,6 +484,7 @@
 				B05D61001CA09335000441AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B05D61011CA09335000441AA /* Build configuration list for PBXNativeTarget "VerboseGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				B05D61031CA09335000441AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B05D61041CA09335000441AA /* Build configuration list for PBXNativeTarget "VerboseGuideUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				B05D61061CA09335000441AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
