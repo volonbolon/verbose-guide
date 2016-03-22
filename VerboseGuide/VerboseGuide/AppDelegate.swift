@@ -8,6 +8,15 @@
 
 import UIKit
 
+struct Constants {
+    struct NotificationName {
+        static let TokenUpdated = "TokenUpdated"
+    }
+    struct NotificationUserInfoKey {
+        static let Token = "Token"
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
