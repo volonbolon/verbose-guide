@@ -49,7 +49,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
+        let query = url.query
+        let bits = query!.characters.split{$0 == "="}.map(String.init)
+        let notification = NSNotification(name: Constants.NotificationName.TokenUpdated, object: nil, userInfo: [Constants.NotificationUserInfoKey.Token:bits[1]])
+        NSNotificationCenter.defaultCenter().postNotification(notification)
+        return true
+    }
 
 }
 
