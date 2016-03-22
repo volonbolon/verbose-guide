@@ -11,6 +11,7 @@ import SafariServices
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tokenLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
